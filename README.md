@@ -1,44 +1,22 @@
-# DISCORD AUTO MESSAGE (HELP)
+# Discord Auto Message
 
+Discord Auto Message is a program made for [Discord](https://discord.com) and as the name suggests, is used to send messages to discord channels automatically with a configurable delay & message.
 
+## Installation
 
+Install the latest python version from [python.org](https://python.org) and download the files.
 
+## How to obtain your Discord Token
 
-
-
-
-
-
-
-
-If you want to grab your token then follow these steps:
-
-- you must login to discord on your browser
-- open the developer console in your browser
-- enter the following code (CONFIRMED TO WORK ON CHROME/EDGE/OPERA/FIREFOX):
+- Login to the Discord Website & Open the Developer/DevTools Console
+- Paste the following code into the console:
 ```
-copy((webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken())
+copy((webpackChunkdiscord_app.push([
+    [''], {},
+    e => {
+        m = [];
+        for (let c in e.c) m.push(e.c[c])
+    }
+]), m).find(m => m?.exports?.default?.getToken !== void 0).exports.default.getToken())
 ```
-- your token is now copied to your clipboard.
-- Still confused? Check out this video for a simple method: https://www.youtube.com/watch?v=PQFzqRN_jXY
-
-
-
-
-
-
-
-
-
-
-
-
-If you want to know how to find channel ID(s) follow these steps:
-
-- left click on a channel and find the copy channel ID option, if you do not see it then follow the next steps otherwise you have your channel ID copied to your clipboard.
-- go to Settings
-- go to "Advanced" in Settings
-- Enable Developer Mode
-- retry the first step
-
-If you need more help, try ask someone who knows about python. Thanks for using my auto message!
+- If you need any extra help, look at this youtube tutorial: https://www.youtube.com/watch?v=PQFzqRN_jXY
