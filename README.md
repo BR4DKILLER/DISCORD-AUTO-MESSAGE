@@ -1,5 +1,16 @@
 # DISCORD AUTO MESSAGE (HELP)
 
+
+
+
+
+
+
+
+
+
+
+
 If you want to grab your token then follow these steps:
 
 - you must login to discord on your browser
@@ -10,6 +21,17 @@ copy((webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c
 ```
 - your token is now copied to your clipboard.
 - Still confused? Check out this video for a simple method: https://www.youtube.com/watch?v=PQFzqRN_jXY
+
+
+
+
+
+
+
+
+
+
+
 
 If you want to know how to find channel ID(s) follow these steps:
 
